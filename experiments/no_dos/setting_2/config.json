@@ -1,0 +1,30 @@
+{
+  "pass_through_ips": ["10.10.10.0"],
+  "buffers": [
+    {
+      "name":  "buffer1",
+      "absolute_time_limit": 21000,
+      "absolute_time_limit_offset": 0,
+      "packet_time_limit": 11000,
+      "packet_limit": null,
+      "capacity": 128,
+      "ips": ["10.10.10.1"]
+    }, {
+      "name":  "buffer2",
+      "absolute_time_limit": 16000,
+      "absolute_time_limit_offset": 250,
+      "packet_time_limit": 8000,
+      "packet_limit": null,
+      "capacity": 128,
+      "ips": ["10.10.10.2"]
+    }, {
+      "name":  "buffer3",
+      "absolute_time_limit": 11000,
+      "absolute_time_limit_offset": 500,
+      "packet_time_limit": 6000,
+      "packet_limit": null,
+      "capacity": 128,
+      "ips": ["10.10.10.3"]
+    }
+  ]
+}
